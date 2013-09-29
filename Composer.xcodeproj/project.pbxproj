@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BD1262617F8C6B00063522B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD1262517F8C6B00063522B /* Main.storyboard */; };
+		6BF0D6B217F8A13400898D23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0D6B117F8A13400898D23 /* Foundation.framework */; };
+		6BF0D6B417F8A13400898D23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0D6B317F8A13400898D23 /* CoreGraphics.framework */; };
+		6BF0D6B617F8A13400898D23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0D6B517F8A13400898D23 /* UIKit.framework */; };
+		6BF0D6BE17F8A13400898D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0D6BD17F8A13400898D23 /* main.m */; };
+		6BF0D6C217F8A13400898D23 /* CPRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0D6C117F8A13400898D23 /* CPRAppDelegate.m */; };
+		6BF0D6C817F8A13400898D23 /* CPRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0D6C717F8A13400898D23 /* CPRViewController.m */; };
+		6BF0D6CA17F8A13400898D23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0D6C917F8A13400898D23 /* Images.xcassets */; };
+		6BF0D6E717F8A26900898D23 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0D6E617F8A26900898D23 /* MessageUI.framework */; };
+		6BF0D6F917F8B11000898D23 /* ALAlertBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0D6ED17F8B11000898D23 /* ALAlertBanner.m */; };
+		6BF0D6FA17F8B11000898D23 /* ALAlertBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0D6EF17F8B11000898D23 /* ALAlertBannerManager.m */; };
+		6BF0D6FB17F8B11000898D23 /* bannerAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0D6F117F8B11000898D23 /* bannerAlert.png */; };
+		6BF0D6FC17F8B11000898D23 /* bannerAlert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0D6F217F8B11000898D23 /* bannerAlert@2x.png */; };
+		6BF0D6FD17F8B11000898D23 /* bannerFailure.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0D6F317F8B11000898D23 /* bannerFailure.png */; };
+		6BF0D6FE17F8B11000898D23 /* bannerFailure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0D6F417F8B11000898D23 /* bannerFailure@2x.png */; };
+		6BF0D6FF17F8B11000898D23 /* bannerNotify.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0D6F517F8B11000898D23 /* bannerNotify.png */; };
+		6BF0D70017F8B11000898D23 /* bannerNotify@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0D6F617F8B11000898D23 /* bannerNotify@2x.png */; };
+		6BF0D70117F8B11000898D23 /* bannerSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0D6F717F8B11000898D23 /* bannerSuccess.png */; };
+		6BF0D70217F8B11000898D23 /* bannerSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0D6F817F8B11000898D23 /* bannerSuccess@2x.png */; };
+		6BF0D70417F8B13000898D23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0D70317F8B13000898D23 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BD1262517F8C6B00063522B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6BF0D6AE17F8A13400898D23 /* Composer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Composer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF0D6B117F8A13400898D23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BF0D6B317F8A13400898D23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BF0D6B517F8A13400898D23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BF0D6B917F8A13400898D23 /* Composer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Composer-Info.plist"; sourceTree = "<group>"; };
+		6BF0D6BD17F8A13400898D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BF0D6BF17F8A13400898D23 /* Composer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Composer-Prefix.pch"; sourceTree = "<group>"; };
+		6BF0D6C017F8A13400898D23 /* CPRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPRAppDelegate.h; sourceTree = "<group>"; };
+		6BF0D6C117F8A13400898D23 /* CPRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPRAppDelegate.m; sourceTree = "<group>"; };
+		6BF0D6C617F8A13400898D23 /* CPRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPRViewController.h; sourceTree = "<group>"; };
+		6BF0D6C717F8A13400898D23 /* CPRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPRViewController.m; sourceTree = "<group>"; };
+		6BF0D6C917F8A13400898D23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BF0D6E617F8A26900898D23 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6BF0D6EB17F8B11000898D23 /* ALAlertBanner+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAlertBanner+Private.h"; sourceTree = "<group>"; };
+		6BF0D6EC17F8B11000898D23 /* ALAlertBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAlertBanner.h; sourceTree = "<group>"; };
+		6BF0D6ED17F8B11000898D23 /* ALAlertBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAlertBanner.m; sourceTree = "<group>"; };
+		6BF0D6EE17F8B11000898D23 /* ALAlertBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAlertBannerManager.h; sourceTree = "<group>"; };
+		6BF0D6EF17F8B11000898D23 /* ALAlertBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAlertBannerManager.m; sourceTree = "<group>"; };
+		6BF0D6F117F8B11000898D23 /* bannerAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerAlert.png; sourceTree = "<group>"; };
+		6BF0D6F217F8B11000898D23 /* bannerAlert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerAlert@2x.png"; sourceTree = "<group>"; };
+		6BF0D6F317F8B11000898D23 /* bannerFailure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerFailure.png; sourceTree = "<group>"; };
+		6BF0D6F417F8B11000898D23 /* bannerFailure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerFailure@2x.png"; sourceTree = "<group>"; };
+		6BF0D6F517F8B11000898D23 /* bannerNotify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerNotify.png; sourceTree = "<group>"; };
+		6BF0D6F617F8B11000898D23 /* bannerNotify@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerNotify@2x.png"; sourceTree = "<group>"; };
+		6BF0D6F717F8B11000898D23 /* bannerSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerSuccess.png; sourceTree = "<group>"; };
+		6BF0D6F817F8B11000898D23 /* bannerSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerSuccess@2x.png"; sourceTree = "<group>"; };
+		6BF0D70317F8B13000898D23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF0D6AB17F8A13400898D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF0D70417F8B13000898D23 /* QuartzCore.framework in Frameworks */,
+				6BF0D6E717F8A26900898D23 /* MessageUI.framework in Frameworks */,
+				6BF0D6B417F8A13400898D23 /* CoreGraphics.framework in Frameworks */,
+				6BF0D6B617F8A13400898D23 /* UIKit.framework in Frameworks */,
+				6BF0D6B217F8A13400898D23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF0D6A517F8A13400898D23 = {
+			isa = PBXGroup;
+			children = (
+				6BF0D6E917F8B11000898D23 /* Lib */,
+				6BF0D6B717F8A13400898D23 /* Composer */,
+				6BF0D6B017F8A13400898D23 /* Frameworks */,
+				6BF0D6AF17F8A13400898D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF0D6AF17F8A13400898D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0D6AE17F8A13400898D23 /* Composer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF0D6B017F8A13400898D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0D70317F8B13000898D23 /* QuartzCore.framework */,
+				6BF0D6E617F8A26900898D23 /* MessageUI.framework */,
+				6BF0D6B117F8A13400898D23 /* Foundation.framework */,
+				6BF0D6B317F8A13400898D23 /* CoreGraphics.framework */,
+				6BF0D6B517F8A13400898D23 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BF0D6B717F8A13400898D23 /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0D6C017F8A13400898D23 /* CPRAppDelegate.h */,
+				6BF0D6C117F8A13400898D23 /* CPRAppDelegate.m */,
+				6BF0D6C617F8A13400898D23 /* CPRViewController.h */,
+				6BF0D6C717F8A13400898D23 /* CPRViewController.m */,
+				6BF0D6B817F8A13400898D23 /* Supporting Files */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		6BF0D6B817F8A13400898D23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0D6C917F8A13400898D23 /* Images.xcassets */,
+				6BD1262517F8C6B00063522B /* Main.storyboard */,
+				6BF0D6B917F8A13400898D23 /* Composer-Info.plist */,
+				6BF0D6BD17F8A13400898D23 /* main.m */,
+				6BF0D6BF17F8A13400898D23 /* Composer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BF0D6E917F8B11000898D23 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0D6EA17F8B11000898D23 /* ALAlertBanner */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		6BF0D6EA17F8B11000898D23 /* ALAlertBanner */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0D6EB17F8B11000898D23 /* ALAlertBanner+Private.h */,
+				6BF0D6EC17F8B11000898D23 /* ALAlertBanner.h */,
+				6BF0D6ED17F8B11000898D23 /* ALAlertBanner.m */,
+				6BF0D6EE17F8B11000898D23 /* ALAlertBannerManager.h */,
+				6BF0D6EF17F8B11000898D23 /* ALAlertBannerManager.m */,
+				6BF0D6F017F8B11000898D23 /* Images */,
+			);
+			path = ALAlertBanner;
+			sourceTree = "<group>";
+		};
+		6BF0D6F017F8B11000898D23 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0D6F117F8B11000898D23 /* bannerAlert.png */,
+				6BF0D6F217F8B11000898D23 /* bannerAlert@2x.png */,
+				6BF0D6F317F8B11000898D23 /* bannerFailure.png */,
+				6BF0D6F417F8B11000898D23 /* bannerFailure@2x.png */,
+				6BF0D6F517F8B11000898D23 /* bannerNotify.png */,
+				6BF0D6F617F8B11000898D23 /* bannerNotify@2x.png */,
+				6BF0D6F717F8B11000898D23 /* bannerSuccess.png */,
+				6BF0D6F817F8B11000898D23 /* bannerSuccess@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BF0D6AD17F8A13400898D23 /* New Mail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF0D6E017F8A13400898D23 /* Build configuration list for PBXNativeTarget "New Mail" */;
+			buildPhases = (
+				6BF0D6AA17F8A13400898D23 /* Sources */,
+				6BF0D6AB17F8A13400898D23 /* Frameworks */,
+				6BF0D6AC17F8A13400898D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New Mail";
+			productName = Composer;
+			productReference = 6BF0D6AE17F8A13400898D23 /* Composer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF0D6A617F8A13400898D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CPR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chat Wacharamanotham";
+				TargetAttributes = {
+					6BF0D6AD17F8A13400898D23 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6BF0D6A917F8A13400898D23 /* Build configuration list for PBXProject "Composer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BF0D6A517F8A13400898D23;
+			productRefGroup = 6BF0D6AF17F8A13400898D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF0D6AD17F8A13400898D23 /* New Mail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF0D6AC17F8A13400898D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF0D6FB17F8B11000898D23 /* bannerAlert.png in Resources */,
+				6BD1262617F8C6B00063522B /* Main.storyboard in Resources */,
+				6BF0D6CA17F8A13400898D23 /* Images.xcassets in Resources */,
+				6BF0D6FF17F8B11000898D23 /* bannerNotify.png in Resources */,
+				6BF0D70217F8B11000898D23 /* bannerSuccess@2x.png in Resources */,
+				6BF0D6FE17F8B11000898D23 /* bannerFailure@2x.png in Resources */,
+				6BF0D70017F8B11000898D23 /* bannerNotify@2x.png in Resources */,
+				6BF0D6FD17F8B11000898D23 /* bannerFailure.png in Resources */,
+				6BF0D70117F8B11000898D23 /* bannerSuccess.png in Resources */,
+				6BF0D6FC17F8B11000898D23 /* bannerAlert@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF0D6AA17F8A13400898D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF0D6C217F8A13400898D23 /* CPRAppDelegate.m in Sources */,
+				6BF0D6FA17F8B11000898D23 /* ALAlertBannerManager.m in Sources */,
+				6BF0D6F917F8B11000898D23 /* ALAlertBanner.m in Sources */,
+				6BF0D6BE17F8A13400898D23 /* main.m in Sources */,
+				6BF0D6C817F8A13400898D23 /* CPRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6BF0D6DE17F8A13400898D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BF0D6DF17F8A13400898D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BF0D6E117F8A13400898D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Composer/Composer-Prefix.pch";
+				INFOPLIST_FILE = "Composer/Composer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BF0D6E217F8A13400898D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Composer/Composer-Prefix.pch";
+				INFOPLIST_FILE = "Composer/Composer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF0D6A917F8A13400898D23 /* Build configuration list for PBXProject "Composer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF0D6DE17F8A13400898D23 /* Debug */,
+				6BF0D6DF17F8A13400898D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF0D6E017F8A13400898D23 /* Build configuration list for PBXNativeTarget "New Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF0D6E117F8A13400898D23 /* Debug */,
+				6BF0D6E217F8A13400898D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF0D6A617F8A13400898D23 /* Project object */;
+}
